@@ -1,0 +1,26 @@
+Angular 2
+	node v12
+	npm install -g @angular/cli - instala o angular
+	npm install -g typescript - instala o typescript
+	ng v - versão
+	ng new NOME PROJETO
+	ng g c nome-modulo - cria um modulo
+	ng g m cursos - criar modulos
+	templates - templates for
+		<ul>
+			<li *ngFor="let curso of cursos"> - property binding [src]="dskd"
+				{{curso}} - interpolação
+			</li>
+		</ul>
+		
+	ng g s cursos/cursos
+	input [(ngModel)]="teste.nome" -> two way binding	
+		component {
+			teste: {
+				nome: ""
+			}
+		}	
+	<input [nome]="valor" valor é uma variavel property binding
+	
+	Jasmine - teste unitario 
+	Karma é a interface de visualização de resultados

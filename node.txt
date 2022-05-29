@@ -1,0 +1,2 @@
+#Migração de tabelas
+yarn typeorm migration:run
