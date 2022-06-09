@@ -1,4 +1,4 @@
-Angular 2
+Angular dsdsds2
 	node v12
 	npm install -g @angular/cli - instala o angular
 	npm install -g typescript - instala o typescript
